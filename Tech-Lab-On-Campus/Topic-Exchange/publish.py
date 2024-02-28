@@ -36,7 +36,7 @@ def main(ticker: str, price: float, sector: str) -> None:
     #                       WRITE CODE HERE!!!
     #
 
-    message = ticker + ' is $' + price + '\n'
+    message = ticker + ' is $' + price
     
     producer.publishOrder(message)
 
